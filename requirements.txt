@@ -13,3 +13,4 @@ requests
 streamlit
 wikipedia
 ipykernel
+langchain-huggingface
