@@ -52,7 +52,7 @@ class DocumentProcessor:
         Returns:
             List of loaded documents
         """
-        docs = List[Document] = []
+        docs: List[Document] = []
         for src in sources:
             if src.startswith("http://") or src.startswith("https://"):
                 docs.extend(self.load_from_url(src))
